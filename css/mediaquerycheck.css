@@ -1,0 +1,31 @@
+/* Media queries for viewcheck script */
+
+@media (min-width: 1400px) {
+  .viewcheck {
+    z-index: 5;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .viewcheck {
+    z-index: 4;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .viewcheck {
+    z-index: 3;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .viewcheck {
+    z-index: 2;
+  }
+}
+
+@media (max-width: 767px) {
+  .viewcheck {
+    z-index: 1;
+  }
+}
